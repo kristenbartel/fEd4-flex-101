@@ -1,0 +1,24 @@
+body {
+    background-image: url(the_calling_of_the_apostles_peter_and_andrew_1939.1.141.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    /* need to set the width and height of container to  */
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:cadetblue;
+    margin: 2rem;
+    padding: 2rem
+    
+}
