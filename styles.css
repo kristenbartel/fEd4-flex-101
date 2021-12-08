@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    background-color: violet;
+    /* flex-direction: row-reverse; */
+        /* reverses the row direction and puts to the opposite side of the page */
+    /* justify-content: center; */
+        /* centers */
+    /* justify-content: flex-end; */
+        /* pushes all to end of line */
+    /* justify-content: space-between; */
+     /* pushes all items to very edge of the page */
+    /* justify-content: space-evenly; */
+        /* spaces all with even space between each */
+    /* justify-content: space-around; */
+    height: 1000px;
+    /* align-items: center; */
+        /* centers the items in teh CONTAINER */
+    flex-wrap: wrap;
+    align-content: baseline ;
+}
+
+.flex-container > div{
+    background-color: thistle;
+    margin: 1rem;
+    padding: 1rem;
+    width: 100px;
+}
+
